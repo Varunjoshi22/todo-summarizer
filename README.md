@@ -154,10 +154,6 @@ The backend can be deployed to platforms like Heroku, Render, or Railway.
 
 The frontend can be deployed to platforms like Vercel, Netlify, or Firebase Hosting.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Sample Output
 
 <img width="1440" alt="Screenshot 2025-05-22 at 12 05 00 AM" src="https://github.com/user-attachments/assets/25f31e02-eb8d-476b-8a33-9536a6740992" />
