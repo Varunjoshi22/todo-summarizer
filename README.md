@@ -1,4 +1,4 @@
-# Todo Summary Assistant
+# Todo Summarizer
 
 A full-stack application that allows users to manage todo items, generate summaries using Google Gemini API, and send them to Slack.
 
@@ -62,7 +62,7 @@ todo-summary-assist/
 
 ```bash
 git clone <repository-url>
-cd todo-summary-assist
+cd todo-summarizer
 ```
 
 ### 2. Backend Setup
@@ -75,7 +75,7 @@ npm install
 Create a `.env` file in the server directory with the following variables:
 
 ```
-PORT=5000
+PORT=5001
 MONGODB_URI=mongodb://localhost:27017/todo-summary-assist
 GEMINI_API_KEY=your_gemini_api_key_here
 SLACK_WEBHOOK_URL=your_slack_webhook_url_here
@@ -91,7 +91,7 @@ npm install
 Create a `.env` file in the client directory with the following variables:
 
 ```
-REACT_APP_API_URL=http://localhost:5000/api
+REACT_APP_API_URL=http://localhost:5001/api
 ```
 
 ## Running the Application
@@ -157,5 +157,13 @@ The frontend can be deployed to platforms like Vercel, Netlify, or Firebase Host
 ## License
 
 This project is licensed under the MIT License.
+
+## Sample Output
+
+<img width="1440" alt="Screenshot 2025-05-22 at 12 05 00 AM" src="https://github.com/user-attachments/assets/25f31e02-eb8d-476b-8a33-9536a6740992" />
+<img width="1440" alt="Screenshot 2025-05-22 at 12 04 48 AM" src="https://github.com/user-attachments/assets/6c709b7e-e219-4607-a139-c76960108845" />
+
+
+
 
 
